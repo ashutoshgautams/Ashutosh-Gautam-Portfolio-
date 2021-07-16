@@ -474,6 +474,22 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
 }
+.contact .contact-content .left a{
+    display: inline-block;
+    background: darkorange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid darkorange;
+    transition: all 0.3s ease;
+}
+.contact .contact-content .left a:hover{
+    color: darkorange;
+    background: none;
+}
 .contact .contact-content .info .sub-title{
     color: #333;
 }
